@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+</style>
+body {
+    margin: 0;
+    font-family: poppins, sans-serif;
+}
+header {
+    width: 100%;
+}
+
+#topbar {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   font-family: Poppins;
+}
+
+.logo{
+    width: 200px;
+    margin: 6px;
+    padding: 8px;
+}
+.menu{
+    padding-right: 28px;
+    color: #8071d0;
+}
+.menu-item{
+    padding-left: 28px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.menu-item:hover{
+    text-decoration: underline;
+    text-decoration-color: #fe5d20;
+}
+
+#fbuttom{
+    margin-right: 78px;
+    padding: 18px 20px 18px 20px;
+    background-color: #ffd8db;
+    color: #a389cc;
+    border: 1px solid #fff;
+    border-radius: 24px;
+    cursor: pointer;
+    font-family: poppins;
+}
+#fbuttom:hover{
+    box-shadow: 4px 4px 8px grey;
+}
+#ho{
+    padding-left: 74px;
+    color: black;
+    font-family: poppins;
+    margin-top: 24px;
+}
+#para{
+    padding-left: 74px;
+    color: #6a6464;
+    font-family: poppins;
+    margin-top: 4px;
+}
+#sbuttom{
+    margin-left: 73px;
+    padding: 18px 20px 18px 20px;
+    background-color: brown;
+    color: cornflowerblue;
+    border: 1px solid #fff;
+    border-radius: 20px;
+    cursor: pointer;
+    font-family: poppins;
+}
+#sbuttom:hover{
+    box-shadow: 4px 4px 8px gray;
+}
+#up{
+    width: 50px;
+}
+#down{
+    width: 50px;
+}
+#landing{
+    position: relative;
+    left: 580px;
+    bottom: 700px;
+    width: 70%;
+}
+
+.cards{
+    padding-left: 10px;
+    border: 1px solid #fff;
+    border-radius: 20px;
+    background-color: aqua;
+    width: 280px;
+    height: 60px;
+    align-items: center;
+    justify-content: space-between;
+}
+.cardsec{
+    position: relative;
+    padding-top: 37px;
+    padding-left: 76px;
+
+}
+.cards:hover{
+    background-color: azure;
+    cursor: pointer;
+}
